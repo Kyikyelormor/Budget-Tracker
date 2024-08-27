@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <h1>BUDGET TRACKER</h1>
+    <div class="error-message">
+        <p>Please enter a budget</p>
+    </div>
+
+    <section class="head">
+    <section class="container">
+        <div class="Total">
+            <h4 class="text one">Total Budget:</h4>
+            <input id="total-budget" placeholder="Enter Your Budget">
+            <button id="calculate" class="btn">Calculate</button>
+        </div>
+
+        <div class="details">
+            <h4 class="text two">Expenses Details:</h4>
+            <input id="expense-detail" type="text" placeholder="Enter the Product Name">
+        </div>
+
+        <div class="amount">
+            <h4 class="text two">Expenses Price:</h4>
+            <input id="expense-amount" placeholder="Enter Product Price">
+        </div>
+
+        <div class="amount">
+            <h4 class="text two">Expenses Quantity:</h4>
+            <input id="expense-quantity" placeholder="Enter Quantity">
+            <button id="add-expenses" class="btn" >Add Expenses</button>
+        </div>
+
+    </section>
+
+ 
+
+    </section>
+
+   <section class="wrapper">
+
+    <div class="Budget total">
+        <div class="message">
+            <p>$0</p>
+            <p>Budget</p>
+        </div>
+    </div>
+
+    <div class="Expenses total">
+        <div class="message">
+            <p>$0</p>
+            <p>Expenses</p>
+        </div>
+    </div>
+
+    <div class="Balance total">
+        <div class="message">
+            <p>$0</p>
+            <p>Balance</p>
+        </div>
+    </div>
+   </section>
+
+   <section class="records">
+
+    <h3 class="Para">BUDGET DETAILS</h3>
+    
+    <div class="diagram">
+        <!-- <ul class="diagrams">
+            <li>1</li>
+            <li>SNACKS</li>
+            <li><span>$</span>10000</li>
+            <li>10</li>
+            <li>
+                <button class="button edt" id="Edit">Edit</button>
+            </li>
+            <li>
+                <button class="button del" id="details">Delete</button>
+            </li>
+        </ul> -->
+    </div>
+
+</section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
